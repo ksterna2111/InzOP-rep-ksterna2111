@@ -4,6 +4,11 @@ int main()
 {
     int liczba;
     cin >> liczba;
-    cout<< liczba << endl;
+    if(liczba>0) {
+        cout<< liczba << endl;
+    }
+    else {
+        cout << "Podano niepoprawne dane!" << endl;
+    }
     return 0;
 }
